@@ -7,10 +7,6 @@
 </script>
 
 <div>
-  App.svelte
+  <div class="bg-green-500">App.svelte</div>
   <TestComponent />
 </div>
-
-<style>
-  div { background-color: lime; }
-</style>
