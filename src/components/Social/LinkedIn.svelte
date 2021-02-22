@@ -2,7 +2,7 @@
 
 </script>
 
-<a class="{$$restProps.class || ''}" href="https://www.linkedin.com/in/jannik-wempe-916415193/">
+<a class="{$$restProps.class || ''}" href="https://www.linkedin.com/in/jannik-wempe-916415193/" target="_blank" rel="noopener noreferrer">
   <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" role="img" aria-labelledby="linkedInTitle" viewBox="0 0 512 512">
     <title id="linkedInTitle">LinkedIn</title>
     <rect width="512" height="512" fill="#0077b5" rx="15%"/>

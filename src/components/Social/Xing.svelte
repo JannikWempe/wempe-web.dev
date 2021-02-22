@@ -2,7 +2,7 @@
 
 </script>
 
-<a class="{$$restProps.class || ''}" href="https://www.xing.com/profile/Jannik_Wempe/cv">
+<a class="{$$restProps.class || ''}" href="https://www.xing.com/profile/Jannik_Wempe/cv" target="_blank" rel="noopener noreferrer">
   <svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="xingTitle" viewBox="0 0 512 512">
     <title id="xingTitle">XING</title>
     <rect width="512" height="512" fill="#077" rx="15%"/>

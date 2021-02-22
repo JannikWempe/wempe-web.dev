@@ -2,7 +2,7 @@
 
 </script>
 
-<a class="{$$restProps.class || ''}" href="https://github.com/pinutz23">
+<a class="{$$restProps.class || ''}" href="https://github.com/pinutz23" target="_blank" rel="noopener noreferrer">
   <svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="gitHubTitle" viewBox="0 0 512 512">
     <title id="gitHubTitle">GitHub</title>
     <rect width="512" height="512" fill="#1B1817" rx="15%"/>

@@ -1,9 +1,9 @@
 <script>
   import Logo from "./components/Logo.svelte";
-  import Xing from "./components/Xing.svelte";
-  import LinkedIn from "./components/LinkedIn.svelte";
-  import GitHub from "./components/GitHub.svelte";
-  import Twitter from "./components/Twitter.svelte";
+  import Xing from "./components/Social/Xing.svelte";
+  import LinkedIn from "./components/Social/LinkedIn.svelte";
+  import GitHub from "./components/Social/GitHub.svelte";
+  import Twitter from "./components/Social/Twitter.svelte";
 </script>
 
 <div class="p-8 bg-gray-100 rounded-xl shadow-lg">
