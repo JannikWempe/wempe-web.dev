@@ -1,12 +1,21 @@
 <script>
-  import { onMount, onDestroy } from 'svelte'
-  import TestComponent from './components/TestComponent.svelte'
-
-  onMount(() => { console.log('Mount  : App.svelte'); console.log('') })
-  onDestroy(() => { console.log('Destroy: App.svelte')})
+  import Logo from "./components/Logo.svelte";
+  import Xing from "./components/Xing.svelte";
+  import LinkedIn from "./components/LinkedIn.svelte";
+  import GitHub from "./components/GitHub.svelte";
+  import Twitter from "./components/Twitter.svelte";
 </script>
 
-<div>
-  <div class="bg-green-500">App.svelte</div>
-  <TestComponent />
+<div class="p-8 bg-gray-100 rounded-xl shadow-lg">
+  <Logo class="mx-auto h-32" />
+  <div class="mt-5 text-center font-semibold">
+    <h1 class="text-3xl bg-clip-text text-transparent bg-gradient-to-b from-blue-600 to-purple-500">Jannik Wempe</h1>
+    <h2 class="text-xl text-purple-500">Full Stack Web Developer</h2>
+  </div>
+  <div class="mt-12 flex justify-around">
+    <Xing class="block h-8 w-8 transition duration-500 ease-in-out transform hover:scale-110"/>
+    <LinkedIn class="block h-8 w-8 transition duration-500 ease-in-out transform hover:scale-110"/>
+    <GitHub class="block h-8 w-8 transition duration-500 ease-in-out transform hover:scale-110"/>
+    <Twitter class="block h-8 w-8 transition duration-500 ease-in-out transform hover:scale-110"/>
+  </div>
 </div>

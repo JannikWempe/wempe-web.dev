@@ -114,3 +114,6 @@ typings/
 .env*.local
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,node,intellij
+
+# Local Netlify folder
+.netlify
