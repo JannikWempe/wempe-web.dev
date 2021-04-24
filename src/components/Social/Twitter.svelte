@@ -2,7 +2,7 @@
 
 </script>
 
-<a class="{$$restProps.class || ''}" href="https://twitter.com/pinutz23" target="_blank" rel="noopener noreferrer">
+<a class="{$$restProps.class || ''}" href="https://twitter.com/JannikWempe" target="_blank" rel="noopener noreferrer">
   <svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="twitterTitle" viewBox="0 0 512 512">
     <title id="twitterTitle">Twitter</title>
     <rect width="512" height="512" fill="#1da1f2" rx="15%"/>
